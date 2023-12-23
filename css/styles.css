@@ -781,6 +781,9 @@ img {
     margin-bottom: 8px;
    }
 
+   .form-wrapper-text {
+    margin-bottom: 16px;
+   }
 
 .form-label {
     display: block;
@@ -944,7 +947,7 @@ border-color: #4D5AE5;
     cursor: pointer;
 }
 
-.form-agreement-checkbox:checked {
+.checkbox:checked + .form-agreement-checkbox {
     background-color: #404BBF;
     border: none; 
     fill: #F4F4FD;
