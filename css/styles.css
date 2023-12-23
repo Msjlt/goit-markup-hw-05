@@ -718,6 +718,8 @@ img {
     min-height: 584px;
     padding: 24px;
     padding-top: 72px;
+
+    
    }
 
    .modal-btn {
@@ -776,7 +778,7 @@ img {
    }
 
    .form-wrapper {
-    margin-bottom: 16px
+    margin-bottom: 8px;
    }
 
 
@@ -810,8 +812,7 @@ img {
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
-    outline: none;
-    
+
 }
 
 .form-imput:focus {
@@ -943,11 +944,12 @@ border-color: #4D5AE5;
     cursor: pointer;
 }
 
-
-.checkbox:checked + .form-agreement-checkbox {
+.form-agreement-checkbox:checked {
     background-color: #404BBF;
     border: none; 
+    fill: #F4F4FD;
 }
+
 
 .form-agreement-icon {
     opacity: 0;
