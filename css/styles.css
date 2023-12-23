@@ -947,7 +947,7 @@ border-color: #4D5AE5;
     cursor: pointer;
 }
 
-.checkbox:checked + .form-agreement-checkbox {
+input:checked + label > span {
     background-color: #404BBF;
     border: none; 
     fill: #F4F4FD;
