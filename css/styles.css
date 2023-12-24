@@ -936,6 +936,7 @@ border-color: #4D5AE5;
     align-items: center;
     justify-content: center;
 
+
     fill: transparent;
 
     width: 16px;
@@ -945,7 +946,9 @@ border-color: #4D5AE5;
     border: 1px solid rgba(46, 47, 66, 0.4); 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    margin-right: 8px;
 }
+
 
 input:checked + label > span {
     background-color: #404BBF;
@@ -953,9 +956,8 @@ input:checked + label > span {
     fill: #F4F4FD;
 }
 
-
-.form-agreement-icon {
-    opacity: 0;
+input:focus + label > span {
+    border-color: #4D5AE5;
 }
 
 .checkbox:checked + .form-agreement-checkbox > .form-agreement-icon {
